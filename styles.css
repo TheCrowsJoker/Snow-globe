@@ -1,0 +1,108 @@
+.wrapper {
+  width: 841.9px;
+  height: 595.3px;
+  position: absolute;
+  left: calc(50% - (841.9px / 2));
+  top: 100px;
+}
+
+.snow-globe .st0 {
+  fill: #77aad7;
+}
+
+.snow-globe .st1 {
+  fill: #ce472b;
+}
+
+.snow-globe .st2 {
+  fill: #e04b28;
+}
+
+.snow-globe .st3 {
+  fill: #f05123;
+}
+
+.snow-globe .st4 {
+  fill: none;
+  stroke: #40403f;
+  stroke-width: 3;
+  stroke-miterlimit: 10;
+}
+
+.snow-globe .st5 {
+  opacity: 0.45;
+  fill: #ffffff;
+}
+
+.snow-globe .st6 {
+  fill: #eaeaea;
+}
+
+.snow-globe .st7 {
+  fill: #ffffff;
+}
+
+.snow-globe .st8 {
+  fill: none;
+  stroke: #ffffff;
+  stroke-width: 2;
+  stroke-miterlimit: 10;
+}
+
+.lightning-bolt {
+  opacity: 0;
+  position: absolute;
+  width: 50px;
+  height: auto;
+}
+
+.lightning-bolt-1 {
+  top: 55px;
+  left: calc(50% - 25px);
+  animation: snow 4s linear infinite;
+}
+
+.lightning-bolt-2 {
+  top: 55px;
+  left: calc(50% - 75px);
+  animation: snow 4s linear infinite 1s;
+}
+
+.lightning-bolt-3 {
+  top: 60px;
+  left: calc(50% + 25px);
+  animation: snow 4s linear infinite 2s;
+}
+
+.lightning-bolt-4 {
+  top: 90px;
+  left: calc(50% + 75px);
+  animation: snow 4s linear infinite 3s;
+}
+
+.lightning-bolt-5 {
+  top: 100px;
+  left: calc(50% - 145px);
+  animation: snow 4s linear infinite 3.5s;
+}
+
+.lightning-bolt .st0 {
+  fill: #ff0000;
+}
+
+@keyframes snow {
+  0% {
+    opacity: 0;
+  }
+  10% {
+    opacity: 0.8;
+  }
+  90% {
+    top: 300px;
+    opacity: 0.8;
+  }
+  100% {
+    top: 300px;
+    opacity: 0;
+  }
+}
